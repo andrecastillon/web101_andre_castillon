@@ -1,3 +1,12 @@
+/* font-family: 'IBM Plex Sans', 
+                sans-serif; */
+/* font-family: 'IBM Plex Sans Condensed', 
+                sans-serif; */
+
+* {
+  
+}
+
 html {
   color: #EEEEEE;
   
@@ -5,6 +14,19 @@ html {
 
 body {
   background-color: #03001C;
+  font-family: IBM Plex Sans;
+  font-weight: Regular 400;
+
+}
+
+h1 {
+  font-family: IBM Plex Sans Condensed;
+  font-weight: Regular 400;
+}
+
+h2 {
+  font-family: IBM Plex Sans Condensed;
+  font-weight: Bold 700;
 }
 
 #profile-pic {
