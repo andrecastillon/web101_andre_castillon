@@ -6,3 +6,9 @@ html {
 body {
   background-color: #03001C;
 }
+
+#profile-pic {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
