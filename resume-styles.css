@@ -1,0 +1,17 @@
+/* font-family: 'IBM Plex Sans', 
+                sans-serif; */
+/* font-family: 'IBM Plex Sans Condensed', 
+                sans-serif; */
+
+body {
+  background-color: #000000;
+  color: #EFF3F4;
+  font-family: IBM Plex Sans;
+  font-weight: REgular 700;
+}
+
+h1 {
+  font-family: IBM Plex Sans Condensed;
+  font-weight: Bold 700;
+  font-size: 80px;
+}
