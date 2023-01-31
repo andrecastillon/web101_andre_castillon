@@ -7,11 +7,44 @@ body {
   background-color: #000000;
   color: #EFF3F4;
   font-family: IBM Plex Sans;
-  font-weight: REgular 700;
+  font-weight: Regular 400;
+}
+
+.grid-container {
+  display: grid;
+  gap: 2 rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-col-span-2 {
+  grid-column: span 2;
+}
+
+.grid-col-span-3 {
+  grid-column: span 3;
+}
+
+.grid-col-span-4 {
+  grid-column: span 3;
+}
+
+img {
+  border-radius: 15px;
 }
 
 h1 {
   font-family: IBM Plex Sans Condensed;
   font-weight: Bold 700;
   font-size: 80px;
+  color: #E2032D;
+}
+
+h4 {
+  font-family: IBM Plex Sans;
+  font-weight: Regular 700;
+}
+
+h2 {
+  font-family: IBM Plex Sans Condensed;
+  font-weight: Bold 700;
 }
