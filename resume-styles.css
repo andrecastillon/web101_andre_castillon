@@ -8,6 +8,7 @@ body {
   color: #EFF3F4;
   font-family: IBM Plex Sans;
   font-weight: Regular 400;
+  padding: 20px 20px 20px 20px;
 }
 
 .grid-container {
@@ -22,6 +23,7 @@ body {
 
 .grid-col-span-3 {
   grid-column: span 3;
+  padding-top: 50px;
 }
 
 .grid-col-span-4 {
@@ -47,4 +49,27 @@ h4 {
 h2 {
   font-family: IBM Plex Sans Condensed;
   font-weight: Bold 700;
+  color: #E2032D;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: #EFF3F4;
+  text-align: center;
+}
+
+table {
+  border: 1px #EFF3F4 solid;
+  padding: 0.2em;
+}
+
+tr {
+  display: table-row;
+  border-color: #EFF3F4;
+}
+
+td {
+  display: table-cell;
+  
 }
