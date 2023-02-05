@@ -13,8 +13,9 @@ body {
 
 .grid-container {
   display: grid;
-  gap: 2 rem;
+  /* gap: 5 rem; */
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px 50px;;
 }
 
 .grid-col-span-2 {
@@ -71,5 +72,10 @@ tr {
 
 td {
   display: table-cell;
-  
+}
+
+.characters .edu .contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
