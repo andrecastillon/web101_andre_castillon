@@ -79,3 +79,14 @@ td {
   justify-content: center;
   align-items: center;
 }
+
+a[href*="twitter.com/"] {
+  background:url(https://twitter.com/favicon.ico) no-repeat left center;
+  padding-left:19px;
+  }
+
+a[href*="youtube.com/"] {
+  background:url(https://www.youtube.com/favicon.ico) no-repeat left center;
+  padding-left:19px;
+  }
+
