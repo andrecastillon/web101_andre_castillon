@@ -15,17 +15,14 @@ body {
   background-color: #03001C;
   font-family: IBM Plex Sans;
   font-weight: Regular 400;
-  color: #EFF3F4;;
+  color: #EFF3F4;
+  margin-bottom: 1.5625vw;
+  margin-left: 3.125vw;
 }
 
 h1 {
   font-family: IBM Plex Sans Condensed, sans-serif;
   font-weight: Regular 400;
-}
-
-.main-header {
-  margin-bottom: 1.5625vw;
-  margin-left: 3.125vw;
 }
 
 .small-about {
@@ -50,6 +47,32 @@ img {
     vertical-align: middle;
     display: inline-block;
 }
+
+.sml-txt-right {
+  width: 56.5625vw;
+  margin-top: 3.125vw;
+  margin-left: 50vw;
+  font-size: 2.8125vw;
+}
+
+.portrait-img {
+  display: block;
+  width: 32vw;
+  height: 40vw;    
+  margin-top: 6.25vw;
+  margin-left: 34.0625vw;
+}
+
+.portrait-text {
+  display: block;
+  width: 60vw;
+  margin-top: 3.125vw;
+  margin-left: 34.375vw;
+  font-size: 2.8125vw;
+  line-height: 125%;
+  margin-bottom: 40vw;
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
