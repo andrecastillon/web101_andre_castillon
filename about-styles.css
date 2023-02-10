@@ -1,0 +1,56 @@
+/* font-family: 'IBM Plex Sans', 
+                sans-serif; 
+                Regular 400
+                Regular 400 Italic
+                Bold 700
+*/
+/* font-family: 'IBM Plex Sans Condensed', 
+                sans-serif;
+                Regular 400
+                Regular 400 Italic
+                Bold 700 
+*/
+
+body {
+  background-color: #03001C;
+  font-family: IBM Plex Sans;
+  font-weight: Regular 400;
+  color: #EFF3F4;;
+}
+
+h1 {
+  font-family: IBM Plex Sans Condensed, sans-serif;
+  font-weight: Regular 400;
+}
+
+.main-header {
+  margin-bottom: 1.5625vw;
+  margin-left: 3.125vw;
+}
+
+.small-about {
+  width: auto;
+  margin-bottom: 1.5625vw;
+  text-align: left;
+}
+
+.page-heading {
+  width: 91vw;
+}
+
+.about-img {
+  display: block;
+  width: 93.75vw;
+  margin-top: 9.375vw;
+  margin-left: 3.125vw;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
