@@ -15,13 +15,52 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 ul {
   list-style-type: none;
 }
 
 body {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 0 90px;
   background-color: #03001C;
   font-family: IBM Plex Sans;
   font-weight: Regular 400;
   color: #EFF3F4;
+}
+
+.main-container {
+  overflow: hidden;
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  margin: 0 20px;
+  padding: 160px 30px 38px 38px;
+  border-radius: 1.25rem;
+  color: black;
+  background: #EFF3F4;
+  text-align: center;
+  /* box-shadow: 0 75px 75px rgb(0 0 0 / 10%); */
+}
+
+.main-container::before {
+  content: "";
+  position: absolute;
+  background: #143d81;
+  top: -880px;
+  left: 50%;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  translate: -50% 0;
+}
+
+input:focus {
+  outline-color: #018EE1;
 }
