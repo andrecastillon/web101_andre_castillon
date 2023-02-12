@@ -11,6 +11,53 @@
   <title>Contact Me</title>
 </head>
 <body>
-  
+  <div class="main-container">
+    <form action="">
+      <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" placeholder="John Doe" required>
+      </div>
+
+      <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="comments"></label>
+        <textarea name="comments" cols="24" rows="8" minlength="20" maxlength="500">Comments</textarea>
+      </div>
+
+      <div class="form-group"></div>
+       <p></p>How did you hear about me?</p>
+        <ul class="checkbox list">
+        <li>
+          <input type="checkbox" name="Classmate"> Classmate
+        </li>
+        <li>
+          <input type="checkbox" name="Resume Submission"> Resume Submission
+        </li>
+        <li>
+          <input type="checkbox" name="LinkedIn"> LinkedIn
+        </li>
+        <li>
+          <input type="checkbox" name="Coding Academy Rec"> Coding Academy Rec
+        </li>
+        </ul>
+      </div>
+
+      <div class="form-group">
+        <label for="Contact Back?">Wish to be contacted back?</label>
+        <input type="radio" name="Yes"> Yes
+        <input type="radio" name="No"> No
+      </div>
+
+      <div class="form-group">
+      <label for="date">Birthday</label>
+      <input type="date">
+      </div>
+
+      <button type="submit" onclick="validate()">Submit</button>
+    </div>
 </body>
 </html>

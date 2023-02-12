@@ -11,6 +11,14 @@
                 Bold 700 
 */
 
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
 body {
   background-color: #03001C;
   font-family: IBM Plex Sans;
