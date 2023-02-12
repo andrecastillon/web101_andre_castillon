@@ -80,8 +80,8 @@ img {
   flex-direction: row;
   height: 39vw;
   margin-right: 0vw;
-  margin-bottom: 6vw;
-  margin-left: 7vw;
+  margin-bottom: 4vh;
+  margin-left: 7vh;
   border-top: 0.3vw solid hsla(0, 0%, 100%, 0.5);
   justify-content: flex-end;
 }
@@ -160,8 +160,8 @@ img {
 
 .bio-container {
   display: grid;
-  grid-template-columns: 10% 1fr 1fr 10%;
-  
+  grid-template-columns: 14% 1fr 1fr 10%;
+  margin-bottom: 5vh;
 }
 
 .desktop-left {
@@ -200,10 +200,10 @@ img {
 .footer {
   display: flex;
   flex-direction: row;
-  height: 25vh;
-  margin-right: auto;
+  height: 5vh;
+  /* margin-right: auto;
   margin-bottom: 6vh;
-  margin-left: auto;
+  margin-left: 1vw; */
   border-top: 2px solid hsla(0, 0%, 100%, 0.5);
   justify-content: center;
 }
