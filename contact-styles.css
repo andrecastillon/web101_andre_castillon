@@ -23,6 +23,13 @@ ul {
   list-style-type: none;
 }
 
+textarea  {  
+  font-family: IBM Plex Sans;
+  font-weight: Regular 400; 
+  font-size: 12px;
+  text-align: center; 
+}
+
 body {
   height: 100%;
   display: grid;
@@ -61,6 +68,70 @@ body {
   translate: -50% 0;
 }
 
-input:focus {
-  outline-color: #018EE1;
+.main-container .logo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #EFF3F4;
+  height: 64px;
+  width: 64px;
+  top: 30px;
+  left: 50%;
+  translate: -50% 0;
+}
+
+.main-container .logo i{
+  font-size: 50px;
+  color: #143d81;
+  font-weight: 500;
+}
+
+.main-container>h2{
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 30px;
+}
+
+.form {
+  margin: 0 0 30px;
+  display: grid;
+  gap: 18px;
+}
+
+button {
+  width: 35%;
+  height: 40px;
+  border-radius: 20px;
+  font-family: IBM Plex Sans;
+  font-weight: 700;
+}
+
+.form-group>input {
+  text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body{
+    padding: 0;
+  }
+
+  .main-container{
+    margin: 0;
+    width: 360px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body{
+    padding: 0;
+  }
+
+  .main-container{
+    margin: 0;
+    width: 660px;
+  }
 }
