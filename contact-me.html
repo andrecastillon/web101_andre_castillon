@@ -15,20 +15,16 @@
   <div class="main-container">
     <div class="logo"><i class='bx bxs-contact'></i></div>
     <h2>Contact Me</h2>
-    <form class="form" action="">
+    <form id="form" action="">
       <div class="form-group">
       <label for="name"></label>
-      <input type="text" placeholder="Name" required>
+      <input name="name" type="text" placeholder="Name" required>
       </div>
-
-      <!-- <br> -->
 
       <div class="form-group">
       <label for="email"></label>
-      <input type="email" placeholder="Email" required>
+      <input name="email" type="email" placeholder="Email" required>
       </div>
-
-      <!-- <br> -->
 
       <div class="form-group">
         <label for="comments"></label>
@@ -44,15 +40,11 @@
           <input type="checkbox" class="checkbox" name="Coding Academy Rec"> Coding Academy Rec
       </div>
 
-      <!-- <br> -->
-
       <div class="form-group">
         <label for="Contact Back?">Wish to be contacted back?</label>
         <input type="radio" name="radAnswer"> Yes
         <input type="radio" name="radAnswer"> No
       </div>
-
-      <!-- <br> -->
 
       <div class="form-group">
       <label for="date">Birthday</label>
@@ -64,4 +56,25 @@
       <button type="submit" onclick="validate()">Submit</button>
     </div>
 </body>
+
+<script>
+  function validate() {
+    const form = document.getElementById('form');
+    const name = document.getElementsByClassName('name');
+    const email = document.getElementsByClassName('email');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const nameValue = name.value;
+      const emailValue = email.value;
+
+      localStorage.setItem('name', nameValue);
+      localStorage.setItem('email', emailValue)
+
+    })
+  }
+
+</script>
+
 </html>

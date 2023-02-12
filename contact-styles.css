@@ -94,7 +94,7 @@ body {
   margin: 0 0 30px;
 }
 
-.form {
+#form {
   margin: 0 0 30px;
   display: grid;
   gap: 18px;
