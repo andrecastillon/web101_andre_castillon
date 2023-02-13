@@ -10,11 +10,13 @@
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="contact-styles.css">
   <title>Contact Me</title>
+  <script src="validate.js" async></script>
 </head>
 <body>
   <div class="main-container">
     <div class="logo"><i class='bx bxs-contact'></i></div>
     <h2>Contact Me</h2>
+
     <form id="form" action="">
       <div class="form-group">
       <label for="name"></label>
@@ -56,25 +58,4 @@
       <button type="submit" onclick="validate()">Submit</button>
     </div>
 </body>
-
-<script>
-  function validate() {
-    const form = document.getElementById('form');
-    const name = document.getElementsByClassName('name');
-    const email = document.getElementsByClassName('email');
-
-    form.addEventListener('submit', function(e) {
-      e.preventDefault();
-
-      const nameValue = name.value;
-      const emailValue = email.value;
-
-      localStorage.setItem('name', nameValue);
-      localStorage.setItem('email', emailValue)
-
-    })
-  }
-
-</script>
-
 </html>
