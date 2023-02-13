@@ -2,4 +2,4 @@
 
 2. a. Store information via submit by setting local storage 
    b. Rediricting user to result.html
-   c. Get information from local to display it
+   c. Get result from local to display it
