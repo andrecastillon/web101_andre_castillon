@@ -78,7 +78,7 @@ img {
 .footer {
   display: flex;
   flex-direction: row;
-  height: 39vw;
+  height: 40vw;
   margin-right: 0vw;
   margin-bottom: 4vh;
   margin-left: 7vh;
@@ -200,7 +200,7 @@ img {
 .footer {
   display: flex;
   flex-direction: row;
-  height: 5vh;
+  height: 24vh;
   /* margin-right: auto;
   margin-bottom: 6vh;
   margin-left: 1vw; */
